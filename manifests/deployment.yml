@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: alchen/k8-jenkins:latest
+          image: alchen99/k8-jenkins:latest
           env:
             - name: JAVA_OPTS
               value: -Djenkins.install.runSetupWizard=false
